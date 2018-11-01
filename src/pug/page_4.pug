@@ -2,11 +2,12 @@ doctype
 html(lang="ja")
   head
     meta(charset="utf-8")
-    style(src="css/style.css")
+    link(rel="stylesheet" ref="./css/style.css")
     title Pugテスト4
   body
     include ./_includes/_header.pug
     main
       .wrap
+        img(src="./images/page_4.jpg")
         p メインコンテンツのテキストタイトル
     include ./_includes/_footer.pug
