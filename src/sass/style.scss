@@ -47,9 +47,20 @@ main{
   }
 }
 footer{
+  position: absolute;
+  bottom: 0;
   color: #fff;
   background: #353535;
   width: 100%;
   text-align: center;
   padding: 5px 0;
+}
+
+.barba-container {
+  transition: all .5s;
+  opacity: 1;
+  .is-transition-start &{
+    opacity: 0;
+    transform: translateY(100px);
+  }
 }

@@ -2,12 +2,12 @@ doctype
 html(lang="ja")
   head
     meta(charset="utf-8")
-    link(rel="stylesheet" ref="./css/style.css")
+    link(rel="stylesheet" href="./css/style.css")
     title Pugテスト4
   body
     include ./_includes/_header.pug
-    main
-      .wrap
-        img(src="./images/page_4.jpg")
-        p メインコンテンツのテキストタイトル
+    main#barba-wrapper
+      .wrap.barba-container
+        img(src="./images/page_4.png")
+        p 4ページ目のテキスト
     include ./_includes/_footer.pug
